@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- METADATA -->
 <head>
-    <title>Title</title>
+    <title>Our Team</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <meta charset="UTF-8">
@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./stylesheets/style.css" type="text/css">
 
     <!-- My Scripts -->
+    <script src="./scripts/utilities.js" type="text/javascript" defer></script>
     <script src="./scripts/script.js" type="text/javascript" defer></script>
     <!--#endregion Stylesheets and Scripts -->
 
@@ -42,6 +43,33 @@
 
 <!-- BODY -->
 <body>
-    
+    <!--#region MAIN -->
+    <main>
+        <h1 class="title text-center">Our Team</h1>
+
+        <div class="test_container container my-5 mx-auto">
+            <div id="test_team-members" class="row g-4 flex-wrap justify-content-center align-items-center"></div>
+        </div>
+
+        <div class="container d-none">
+            <!-- Flex rows with card-items within it. Each card item has the name overlayed at the bottom on a dark background -->
+            <div class="row">
+                <!--#region card-1 -->
+                <div class="card col-12 col-md-4">
+                    <div class="card-content">
+                        <h2 class="card-title">Name</h2>
+                        <p class="card-body">Profession</p>
+                        <button type="button" class="card-button btn btn-primary">Learn More</button>
+                    </div>
+
+                    <div class="card-img">
+                        <img class="img-fluid" src="./assets/img/wayne-barnett-founder-ceo.jpg" alt="Photo of Wayne Barnett">
+                    </div>
+                </div>
+                <!--#endregion card-1 --> 
+            </div>
+        </div>
+    </main>
+    <!--#endregion MAIN -->
 </body>
 </html>

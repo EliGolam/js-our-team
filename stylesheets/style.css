@@ -2,7 +2,7 @@
 /*#region GENERAL DEFAULTS  */
 body {
     font: var(--fontweight-default) var(--fontsize-default) var(--fontfamily-default);
-    columns: var(--clr-dark-grey);
+    color: var(--clr-dark-grey);
 }
 /*#endregion GENERAL DEFAULTS  */
 /* --------------------------------------------------------------------------------- */
