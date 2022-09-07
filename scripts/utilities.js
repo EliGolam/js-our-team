@@ -44,8 +44,9 @@ function createCardDOM(member, container) {
 function addCardElement(content, elementType, imgAlt) {
     const element = document.createElement(elementType);
     if (elementType === 'img') {
+        const elementClass = ['team-card_img', 'img-fluid'];
         // When it's an image we also add the img alt property for accessibility
-        element.classList.add('img-fluid');
+        element.classList.add(...elementClass);
         element.src = `./assets/img/${content}`;
         element.alt = `photo of ${imgAlt}`;
     } else {

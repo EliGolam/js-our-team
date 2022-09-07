@@ -15,7 +15,7 @@ const teamMembersData = [
 const team = [];
 
 
-// For loop to create a TeamMember object for each 
+// FOR loop to create a TeamMember object for each 
 // team member and add them to the team array
 for(let member of teamMembersData) {
     team.push(new TeamMember(...member));
